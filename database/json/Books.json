@@ -1,0 +1,182 @@
+[
+    {
+        "bookname": "The Art of Thinking Clearly",
+        "user_id": 1,
+        "author": "Rolf Dobelli",
+        "description": "A book about cognitive biases and decision-making."
+    },
+    {
+        "bookname": "Atomic Habits",
+        "user_id": 2,
+        "author": "James Clear",
+        "description": "A guide to building good habits and breaking bad ones."
+    },
+    {
+        "bookname": "The Psychology of Money",
+        "user_id": 3,
+        "author": "Morgan Housel",
+        "description": "A book about financial behavior and mindset."
+    },
+    {
+        "bookname": "Deep Work",
+        "user_id": 4,
+        "author": "Cal Newport",
+        "description": "A book about focused success in a distracted world."
+    },
+    {
+        "bookname": "The Power of Now",
+        "user_id": 5,
+        "author": "Eckhart Tolle",
+        "description": "A spiritual guide to mindfulness and presence."
+    },
+    {
+        "bookname": "Grit",
+        "user_id": 6,
+        "author": "Angela Duckworth",
+        "description": "A book about perseverance and passion for long-term goals."
+    },
+    {
+        "bookname": "Can't Hurt Me",
+        "user_id": 7,
+        "author": "David Goggins",
+        "description": "An autobiography about mental toughness and resilience."
+    },
+    {
+        "bookname": "The Subtle Art of Not Giving a F*ck",
+        "user_id": 8,
+        "author": "Mark Manson",
+        "description": "A counterintuitive approach to living a good life."
+    },
+    {
+        "bookname": "Man's Search for Meaning",
+        "user_id": 9,
+        "author": "Viktor Frankl",
+        "description": "A book about finding purpose in suffering."
+    },
+    {
+        "bookname": "Rich Dad Poor Dad",
+        "user_id": 10,
+        "author": "Robert Kiyosaki",
+        "description": "Lessons on financial education and investment."
+    },
+    {
+        "bookname": "Start With Why",
+        "user_id": 1,
+        "author": "Simon Sinek",
+        "description": "A book about leadership and inspiration."
+    },
+    {
+        "bookname": "The Lean Startup",
+        "user_id": 2,
+        "author": "Eric Ries",
+        "description": "A book about lean business strategies and innovation."
+    },
+    {
+        "bookname": "Thinking, Fast and Slow",
+        "user_id": 3,
+        "author": "Daniel Kahneman",
+        "description": "A book about the psychology of decision-making."
+    },
+    {
+        "bookname": "Mindset",
+        "user_id": 4,
+        "author": "Carol S. Dweck",
+        "description": "A book about the power of a growth mindset."
+    },
+    {
+        "bookname": "Zero to One",
+        "user_id": 5,
+        "author": "Peter Thiel",
+        "description": "A book about startups and innovation."
+    },
+    {
+        "bookname": "The 5 AM Club",
+        "user_id": 6,
+        "author": "Robin Sharma",
+        "description": "A book about morning routines for success."
+    },
+    {
+        "bookname": "Tools of Titans",
+        "user_id": 7,
+        "author": "Tim Ferriss",
+        "description": "A collection of insights from world-class performers."
+    },
+    {
+        "bookname": "Good to Great",
+        "user_id": 8,
+        "author": "Jim Collins",
+        "description": "A book about what makes companies exceptional."
+    },
+    {
+        "bookname": "Sapiens",
+        "user_id": 9,
+        "author": "Yuval Noah Harari",
+        "description": "A history of humankind and civilization."
+    },
+    {
+        "bookname": "The Innovator's Dilemma",
+        "user_id": 10,
+        "author": "Clayton M. Christensen",
+        "description": "A book about disruptive innovation in business."
+    },
+    {
+        "bookname": "The One Thing",
+        "user_id": 1,
+        "author": "Gary Keller",
+        "description": "A book about focusing on what truly matters."
+    },
+    {
+        "bookname": "Drive",
+        "user_id": 2,
+        "author": "Daniel H. Pink",
+        "description": "A book about motivation and human behavior."
+    },
+    {
+        "bookname": "Made to Stick",
+        "user_id": 3,
+        "author": "Chip Heath & Dan Heath",
+        "description": "A book about why some ideas last and others fail."
+    },
+    {
+        "bookname": "Purple Cow",
+        "user_id": 4,
+        "author": "Seth Godin",
+        "description": "A book about standing out in marketing."
+    },
+    {
+        "bookname": "The 4-Hour Workweek",
+        "user_id": 5,
+        "author": "Tim Ferriss",
+        "description": "A book about lifestyle design and automation."
+    },
+    {
+        "bookname": "Hooked",
+        "user_id": 6,
+        "author": "Nir Eyal",
+        "description": "A book about building habit-forming products."
+    },
+    {
+        "bookname": "Extreme Ownership",
+        "user_id": 7,
+        "author": "Jocko Willink",
+        "description": "A book about leadership lessons from Navy SEALs."
+    },
+    {
+        "bookname": "Rework",
+        "user_id": 8,
+        "author": "Jason Fried & David Heinemeier Hansson",
+        "description": "A book about a fresh approach to business."
+    },
+    {
+        "bookname": "Dare to Lead",
+        "user_id": 9,
+        "author": "Brené Brown",
+        "description": "A book about courage and leadership."
+    },
+    {
+        "bookname": "Crushing It!",
+        "user_id": 10,
+        "author": "Gary Vaynerchuk",
+        "description": "A book about building a personal brand."
+    }
+]
