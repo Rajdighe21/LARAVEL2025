@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BookController;
 use App\Http\Controllers\DivisionController;
+use App\Http\Controllers\OneToOneRelationCotroller;
 use App\Http\Controllers\StateController;
 use App\Http\Controllers\StandardController;
 use App\Http\Controllers\SubjectController;
@@ -70,3 +71,7 @@ Route::resource('/subject',SubjectController::class);
 // LEARN ELOQUENT ORM
 
 Route::resource('/division',DivisionController::class);
+
+
+// ONE TO ONE RELATIONSHIP
+Route::resource('/One-To-One',OneToOneRelationCotroller::class);
