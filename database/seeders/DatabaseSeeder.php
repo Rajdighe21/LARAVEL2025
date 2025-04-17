@@ -2,14 +2,15 @@
 
 namespace Database\Seeders;
 
+use App\Models\User;
+use App\Models\State;
 use App\Models\Classes;
 use App\Models\Division;
-use App\Models\Standard;
-use App\Models\User;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
-use App\Models\State;
+use App\Models\Standard;
 use Illuminate\Database\Seeder;
 use Database\Seeders\BookSeeder;
+use Database\Seeders\PostSeeder;
 
 class DatabaseSeeder extends Seeder
 {
@@ -26,14 +27,18 @@ class DatabaseSeeder extends Seeder
         // ]);
 
 
-        // --------------------------------------------------------------
-        // FACTORY THIS IS FOR
+        // // --------------------------------------------------------------
+        // // FACTORY THIS IS FOR
 
-        //Classes::factory()->count(60)->create();
-        // User::factory()->count(60)->create();
+        // Classes::factory()->count(60)->create();
+        // User::factory()->count(500)->create();
         // State::factory()->count(60)->create();
         // Standard::factory()->count(60)->create();
+        // Division::factory()->count(60)->create();
 
-        Division::factory()->count(60)->create();
+        // ---------------------------------------------------------------------
+        $this->call([
+            PostSeeder::class
+        ]);
     }
 }

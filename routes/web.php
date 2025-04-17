@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BookController;
 use App\Http\Controllers\DivisionController;
+use App\Http\Controllers\OneToManyRelationController;
 use App\Http\Controllers\OneToOneRelationCotroller;
 use App\Http\Controllers\StateController;
 use App\Http\Controllers\StandardController;
@@ -62,7 +63,7 @@ Route::get('/viewStandars', [StandardController::class, 'view'])->name('viewStan
 
 // CREATE RESOURCE CONTROLLER
 
-Route::resource('/subject',SubjectController::class);
+Route::resource('/subject', SubjectController::class);
 
 
 // -----------------------------------------------------------------------------------------------------------------------
@@ -70,8 +71,13 @@ Route::resource('/subject',SubjectController::class);
 
 // LEARN ELOQUENT ORM
 
-Route::resource('/division',DivisionController::class);
+Route::resource('/division', DivisionController::class);
 
 
 // ONE TO ONE RELATIONSHIP
-Route::resource('/One-To-One',OneToOneRelationCotroller::class);
+Route::resource('/One-To-One', OneToOneRelationCotroller::class);
+
+
+// ONE TO MANY RELATION
+Route::get('/One-To-Many', [OneToManyRelationController::class,'index'])->name('One-To-Many.index');
+Route::get('/One-To-Many/create', [OneToManyRelationController::class,'create'])->name('One-To-Many.create');
