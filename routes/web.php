@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BookController;
 use App\Http\Controllers\DivisionController;
+use App\Http\Controllers\ManyToManyController;
 use App\Http\Controllers\OneToManyRelationController;
 use App\Http\Controllers\OneToOneRelationCotroller;
 use App\Http\Controllers\StateController;
@@ -81,3 +82,7 @@ Route::resource('/One-To-One', OneToOneRelationCotroller::class);
 // ONE TO MANY RELATION
 Route::get('/One-To-Many', [OneToManyRelationController::class,'index'])->name('One-To-Many.index');
 Route::get('/One-To-Many/create', [OneToManyRelationController::class,'create'])->name('One-To-Many.create');
+
+
+// MANY TO MANY RELATION
+Route::resource('/many-to-many',ManyToManyController::class);

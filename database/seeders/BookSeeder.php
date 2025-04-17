@@ -92,7 +92,7 @@ class BookSeeder extends Seeder
 
         // FAKE DATA ADD USING FAKER AND LOOP
 
-        for($i=1;$i<=500;$i++){
+        for($i=1;$i<=50;$i++){
             Book::create([
                         'bookname' => fake()->name,
                         'user_id' => rand(10, 50),

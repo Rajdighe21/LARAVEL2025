@@ -13,14 +13,14 @@ class PostSeeder extends Seeder
      */
     public function run(): void
     {
-        for ($i = 1; $i <= 5000; $i++) {
+        for ($i = 1; $i <= 50; $i++) {
             Post::create([
                 'post_name' => fake()->word(),
                 'description' => fake()->sentence(),
                 'like' => rand(0, 1000),
                 'dislike' => rand(0, 1000),                  // Random dislike count between 0 and 1000
                 'comments' => fake()->sentence(),            // Random comment
-                'users_id' => rand(1, 100),                   // Random user_id (assuming there are users with ids 1-100)
+                'users_id' => rand(1, 40),                   // Random user_id (assuming there are users with ids 1-100)
             ]);
         }
     }

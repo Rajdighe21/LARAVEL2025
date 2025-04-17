@@ -18,7 +18,7 @@ class StandardFactory extends Factory
     {
         return [
             'standard_name'=>fake()->word(),
-            'class_id'=> rand(1, 60),
+            'class_id'=> rand(1, 50),
             'total_student'=> rand(30, 60),
         ];
     }
